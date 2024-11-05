@@ -1,6 +1,6 @@
 import unittest
 
-from task_3 import time_diff
+from task_3.task_3 import time_diff
 
 
 class TestTimeDiff(unittest.TestCase):
