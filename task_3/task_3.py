@@ -6,7 +6,4 @@ def time_diff(time_from, time_to):
     
     angle_diff = abs(angle_to - angle_from)
     
-    if angle_diff > math.pi:
-        angle_diff = 2 * math.pi - angle_diff
-    
     return int(round(angle_diff * 24 / (2 * math.pi)))
